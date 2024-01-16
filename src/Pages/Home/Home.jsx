@@ -5,6 +5,7 @@ import MenuSection from "../../Components/MenuSection/MenuSection";
 import OurMenu from "../../Components/OurMenu/OurMenu";
 import PhoneCall from "../../Components/PhoneCall/PhoneCall";
 import HomeSwiper from "../../Components/Swiper/HomeSwiper";
+import Testimonials from "../../Components/Testimonials/Testimonials";
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <PhoneCall></PhoneCall>
             <ChefRecommends></ChefRecommends>
             <OurMenu></OurMenu>
+            <Testimonials></Testimonials>
         </div>
     );
 };
