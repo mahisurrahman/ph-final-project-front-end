@@ -6,7 +6,13 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'font-inter': "'Inter', sans-serif",
+    }
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["light"],
+  },
 }
 
