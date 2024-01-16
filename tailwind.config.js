@@ -9,6 +9,7 @@ export default {
     fontFamily: {
       'font-inter': "'Inter', sans-serif",
       'font-cinzel': "'Cinzel', serif",
+      'font-raleway': "'Raleway', sans-serif",
     }
   },
   plugins: [require("daisyui")],
