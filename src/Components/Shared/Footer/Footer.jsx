@@ -1,6 +1,9 @@
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa6";
 
 const Footer = () => {
+
+  const year = new Date().getFullYear();
+
   return (
     <div>
       <div className="h-[400px] bg-[#111827] w-full flex justify-center">
@@ -30,7 +33,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-[#151515] text-white text-center py-2">
-        <p className="font-font-inter">Copyright © CulinaryCloud. All rights reserved.</p>
+        <p className="font-font-inter">
+          `Copyright &copy; {year} CulinaryCloud. All rights reserved.`
+        </p>
       </div>
     </div>
   );
