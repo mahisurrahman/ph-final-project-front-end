@@ -1,4 +1,4 @@
-import TitleSubTitle from "../TitleSubTitle/TitleSubTitle";
+import TitleSubTitle from "../Shared/TitleSubTitle/TitleSubTitle";
 
 const MenuSection = () => {
     return (

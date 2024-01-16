@@ -10,7 +10,7 @@ import slide2 from '../../../public/home/slide2.jpg'
 import slide3 from '../../../public/home/slide3.jpg'
 import slide4 from '../../../public/home/slide4.jpg'
 import slide5 from '../../../public/home/slide5.jpg'
-import TitleSubTitle from "../TitleSubTitle/TitleSubTitle";
+import TitleSubTitle from "../Shared/TitleSubTitle/TitleSubTitle";
 
 const HomeSwiper = () => {
   return (

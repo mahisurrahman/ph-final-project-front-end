@@ -1,4 +1,4 @@
-import TitleSubTitle from "../TitleSubTitle/TitleSubTitle";
+import TitleSubTitle from "../Shared/TitleSubTitle/TitleSubTitle";
 import slide5 from "../../../public/home/slide5.jpg";
 
 const ChefRecommends = () => {
