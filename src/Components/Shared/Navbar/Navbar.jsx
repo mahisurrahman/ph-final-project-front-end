@@ -5,7 +5,7 @@ import cartIcon from '../../../../public/icon/cart.png';
 const Navbar = () => {
   const links = (
     <>
-      <div className="flex gap-5 text-xl text-white">
+      <div className="flex gap-5 text-sm md:text-xl text-black items-center">
         <Link>
           <p>Home</p>
         </Link>
@@ -31,8 +31,8 @@ const Navbar = () => {
   );
 
   return (
-    <div className="flex items-center justify-between px-5 py-2 bg-black">
-      <div className="navbar-start">
+    <div className="flex items-center justify-between px-5 py-2 bg-white">
+      <div className="navbar-start flex justify-start items-center">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -58,10 +58,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex flex-col font-font-cinzel text-left pl-5">
-          <p className="tracking-tighter text-2xl font-bold text-white uppercase">
+          <p className="tracking-tighter text-lg md:text-2xl font-bold text-black uppercase">
             Bistro Boss
           </p>
-          <p className="tracking-widest text-lg font-light text-white uppercase">
+          <p className="tracking-widest text-sm md:text-lg font-light text-black uppercase">
             Restaurant
           </p>
         </div>
